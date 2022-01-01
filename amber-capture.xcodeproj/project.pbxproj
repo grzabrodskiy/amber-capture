@@ -13,6 +13,7 @@
 		FD0AA353277F5E70007A91EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0AA351277F5E70007A91EE /* Main.storyboard */; };
 		FD0AA355277F5E72007A91EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0AA354277F5E72007A91EE /* Assets.xcassets */; };
 		FD0AA358277F5E72007A91EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0AA356277F5E72007A91EE /* LaunchScreen.storyboard */; };
+		FD0AA360277F5ECE007A91EE /* VideoFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0AA35F277F5ECE007A91EE /* VideoFeed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FD0AA354277F5E72007A91EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD0AA357277F5E72007A91EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD0AA359277F5E72007A91EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0AA35F277F5ECE007A91EE /* VideoFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FD0AA34B277F5E70007A91EE /* AppDelegate.swift */,
 				FD0AA34D277F5E70007A91EE /* SceneDelegate.swift */,
 				FD0AA34F277F5E70007A91EE /* ViewController.swift */,
+				FD0AA35F277F5ECE007A91EE /* VideoFeed.swift */,
 				FD0AA351277F5E70007A91EE /* Main.storyboard */,
 				FD0AA354277F5E72007A91EE /* Assets.xcassets */,
 				FD0AA356277F5E72007A91EE /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD0AA350277F5E70007A91EE /* ViewController.swift in Sources */,
+				FD0AA360277F5ECE007A91EE /* VideoFeed.swift in Sources */,
 				FD0AA34C277F5E70007A91EE /* AppDelegate.swift in Sources */,
 				FD0AA34E277F5E70007A91EE /* SceneDelegate.swift in Sources */,
 			);
