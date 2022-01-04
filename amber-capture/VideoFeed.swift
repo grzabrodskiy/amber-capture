@@ -117,7 +117,7 @@ class VideoFeed: NSObject {
         let settings = AVCapturePhotoSettings()
 
         // verify that we have a pixel format type available
-        guard let previewPixelType = settings.availablePreviewPhotoPixelFormatTypes.last else {
+        guard let previewPixelType = settings.availablePreviewPhotoPixelFormatTypes.first else {
             print("Unable to configure photo capture settings, 'availablePreviewPhotoPixelFormatTypes' has no available options.")
             return
         }
@@ -266,7 +266,7 @@ class VideoFeed: NSObject {
     internal func configureVideoOrientation() {
 
         guard let connection = connection, connection.isVideoOrientationSupported,
-        let currentOrientation = AVCaptureVideoOrientation(rawValue: UIApplication.shared.statusBarOrientation.rawValue) else {
+              let currentOrientation = AVCaptureVideoOrientation(rawValue: UIApplication.shared   .statusBarOrientation.rawValue) else {
                 return
         }
 
