@@ -68,8 +68,8 @@ class ViewController: UIViewController, VideoFeedDelegate {
 
         // Save image
 
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle(for: AppDelegate.self))
-        let vc = storyboard.instantiateViewController(withIdentifier: "PreviewViewController")
+        //let storyboard = UIStoryboard(name: "Main", bundle: Bundle(for: AppDelegate.self))
+        //let vc = storyboard.instantiateViewController(withIdentifier: "PreviewViewController")
         previewImage.image = image
         
         let h  = Int(image.size.height * image.scale)
@@ -77,7 +77,7 @@ class ViewController: UIViewController, VideoFeedDelegate {
         let s = "Image Size: \(h) x \(w)"
         print(s)
         imageSize.text = s
-        navigationController?.pushViewController(vc, animated: true)
+        //navigationController?.pushViewController(vc, animated: true)
 
     }
 
